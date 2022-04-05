@@ -1,0 +1,516 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Noto+Serif+Display&family=Zen+Maru+Gothic:wght@300&display=swap');
+
+
+.header{
+    width:100%;
+    height:12vh;
+    background:#F7F9FA;
+    border-bottom:1px solid grey;
+    display:flex;
+    align-items:center;
+    box-sizing:border-box;
+}
+.logo{
+    width:150px;
+    padding-left:20px;
+    
+    
+}
+.cat{
+    padding-left: :20px;
+}
+.cat ul{
+    list-style-type:none;
+}
+.cat ul li{
+    list-style-type: none;
+    
+}
+
+.cat ul li{
+    position:relative;
+}
+.cat ul li ul{
+    background:white;
+    left:-9999px;
+    position:absolute;
+  
+    z-index:5;
+    width:250px;
+    height:500px;
+    
+}
+
+.cat ul li:hover ul{
+    left:0;
+  
+    
+    
+}
+.cat ul li ul li{
+    background:white;
+}
+.cat ul li ul li a{
+    padding:12px 30px;
+    display:block;
+    text-decoration:none;
+    font-size:15px;
+}
+
+
+
+
+
+.cat ul li a{
+    text-decoration:none;
+    color:black;
+    padding:0 20px;
+    font-size:17px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+.container{
+   
+    border:1px solid black;
+    border-radius:55px;
+    display:flex-start;
+   
+}
+.search-box{
+    border-radius:55px;
+   display:flex;
+   align-items:center;
+   padding:7px 20px;
+   
+   
+    
+   
+
+}
+.search-icon{
+    width: 25px;
+    cursor:pointer;
+    padding-right:20px;
+    float:left;
+    
+}
+input{
+    font-size:16.5px;
+    width:600px;
+    background:transparent;
+    border:0;
+    outline:none;
+   
+
+}
+.nav{
+     padding-left:20px;
+}
+.nav ul{
+    list-style-type:none;
+}
+.nav ul li {
+    float:left;
+    padding:0 10px;
+}
+.nav ul li a{
+    text-decoration:none;
+    color:black;
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+.icon{
+    display:flex;
+    align-items:center;
+    padding:10px;
+}
+.love{
+    width:25px;
+    cursor:pointer;
+    padding-right:10px;
+}
+.cart{
+    width:30px;
+    cursor:pointer;
+    padding-right:10px;
+}
+.notification{
+    width:25px;
+    cursor:pointer;
+}
+.navbar{
+    margin:0 auto;
+    margin-left:20px;
+    border-bottom:1px solid black;
+  
+  
+    
+}
+nav{
+    background:#FFFFFF;
+    height:42px;
+   
+   
+}
+nav ul{
+    list-style-type:none;
+    display:flex;
+    align-items:center;
+    background:#FFFFFF;
+}
+nav ul li{
+   
+    padding:5px;
+    display:inline-block;
+}
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    padding:10px 20px;
+    display:block;
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+   
+}
+.myimage{
+
+
+}
+   
+
+
+.myimage img{
+    justify-content:middle;
+    width:1200px;
+    height:350px;
+    padding-left:10%;
+    padding-top:10px;
+    position:absolute;
+   
+    
+}
+.text{
+    box-sizing:border-box;
+    position:relative;
+    width:280px;
+    height:150px;
+    background:white;
+    top:30px;
+    left:200px;
+    padding:15px;
+
+}
+.text h1{
+    font-size:32px;
+    padding:5px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+.text p{
+    font-size:17px;
+    color:black;
+    padding-left:5px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+
+}
+.article{
+    margin-top:18%;
+    margin-left:10%;
+    width:1200px;
+    overflow:hidden;
+    
+    
+
+    
+}
+.article h1{
+    float:left;
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+
+}
+.article a{
+    float:right;
+    font-size:19px;
+    cursor:pointer;
+    text-decoration:none;
+    padding-top:3px;
+  
+
+}
+
+.boxwrapper{
+   
+    
+    margin:40px 250px;
+    width:1100px;
+    height:630px;
+
+    
+}
+.box{
+    float:left;
+    background:white;
+    width:310px;
+    height:320px;
+ 
+    margin-right:20px;
+    
+}
+.box .imgwrap{
+    padding:3px;
+}
+
+.box .imgwrap img{
+    width:130px;
+    height:130px;
+    cursor:pointer;
+    float:left;
+    border-radius:5px;
+}
+
+
+.box .imgwrap  p{
+    float:left;
+    padding:3px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    
+}
+.box .imgwrap h2{
+    float:left;
+    margin-top:43px;
+    border-radius:5px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+
+.black{
+    width:80%;
+    height:70px;
+    margin-left:130px;
+    margin-bottom:30px;
+    background:black;
+    box-sizing:border-box;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.black p{
+    color:white;
+    margin-right:200px;
+    font-size:17px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    
+   
+}
+.black .button1{
+    margin-right:10px;
+    width:200px;
+    height:42px;
+    cursor:pointer;
+    background:white;
+    border:none;
+    transition:all 0.3s ease;
+}
+.black .button1:hover{
+    background:#ddd;
+}
+.black .button1 p{
+    font-size:17px;
+    color:black;
+    margin:0 auto;
+}
+.black .button2 p{
+    font-size:17px;
+    color:white;
+    margin:0 auto;
+}
+.black .button2{
+    margin-right:20px;
+    width:130px;
+    height:42px;
+    cursor:pointer;
+    border:1px solid white;
+    background:black;
+}
+.footbar{
+    width:100%;
+    height:100px;
+    background:#1C1D1F;
+    border-bottom:1px solid #ddd;
+    display:flex;
+    align-items:center;
+}
+.footbar p{
+    color:white;
+    font-size:18px;
+    padding-left:40px;
+    padding-top:10px;
+}
+.bold{
+    font-weight:bold;
+    font-size:20px;
+}
+
+.click{
+    width:170px;
+    height:45px;
+    font-size:18px;
+    color:black;
+    padding:3px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+button{
+    cursor:pointer;
+}
+.button{
+    margin-left:700px;
+    
+}
+.footbar2{
+    width:100%;
+    height:100px;
+    background:#1C1D1F;
+    display:flex;
+    align-items:center;
+    border-bottom:1px solid #ddd;
+}
+.footbar2 p{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    
+}
+.pad{
+    padding-right:470px;
+    padding-left:30px;
+
+}
+.netflix{
+    width:125px;
+    padding:3px;
+}
+.word{
+    width:80px;
+    padding:3px;
+}
+.amazon{
+    width:100px;
+    padding:3px;
+}
+.footbar3{
+    width:100%;
+    height:230px;
+    background:#1C1D1F;
+    display:flex;
+    
+}
+.mylist{
+    padding-top:30px;
+    padding-left:30px;
+}
+.mylist ul{
+    list-style-type:none;
+}
+.mylist ul li{
+    margin:12px;
+}
+.mylist ul li a{
+    text-decoration:none;
+    color:white;
+   
+}
+
+
+
+.mylist1{
+    padding-top:30px;
+    padding-left:150px;
+}
+.mylist1 ul{
+    list-style-type:none;
+}
+.mylist1 ul li{
+    margin:12px;
+}
+.mylist1 ul li a{
+    text-decoration:none;
+    color:white;
+   
+}
+
+
+
+.mylist2{
+    padding-top:30px;
+    padding-left:150px;
+}
+.mylist2 ul{
+    list-style-type:none;
+}
+.mylist2 ul li{
+    margin:12px;
+}
+.mylist2 ul li a{
+    text-decoration:none;
+    color:white;
+   
+}
+.button4{
+    padding-top:30px;
+    padding-left:610px;
+   
+}
+.but4{
+    width:130px;
+    height:40px;
+    font-size:18px;
+    color:white;
+    padding:10px;
+    border:1px solid white;
+    background:black;
+    
+}
+.footbar4{
+    width:100%;
+    height:60px;
+    background:#1C1D1F;
+    
+}
+.footbar4 .img5{
+    float:left;
+    width:100px;
+    padding-left:30px;
+}
+.img5 img{
+    width:150px;
+}
+.footbar4 .at{
+    float:right;
+    padding-right:20px;
+    padding-top:15px;
+}
+.at p{
+    color:white;
+}
